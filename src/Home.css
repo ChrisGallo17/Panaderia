@@ -1,0 +1,18 @@
+.home {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("./homeBackground.jpg");
+    filter:  brightness(70%) ;
+}
+
+.title {
+    margin-top: 2em;
+    font-size: 3em;
+    filter:  brightness(100%) ;
+}

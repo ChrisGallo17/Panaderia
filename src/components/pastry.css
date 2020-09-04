@@ -1,3 +1,33 @@
 .pastry {
-    width: 300px;
+    width: 500px;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 5px; 
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.name {
+    margin-block-start: 0em;
+    margin-block-end: .25em;
+}
+
+.desc {
+    font-size: calc(5px + 2vmin);
+    font-style: italic;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.cal {
+    font-size: calc(5px + 2vmin);
+    margin-block-start: .25em;
+    margin-block-end: 0em;
 }

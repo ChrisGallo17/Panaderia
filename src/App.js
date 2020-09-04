@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 import Pastry from './components/pastry';
+import Home from './Home'
 import './App.css';
 
 let pastryList = [
@@ -14,13 +15,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Home></Home>
         <h1>Panaderia</h1>
+      </header>
+      <div className="pastryList">
         {
-          pastries.map( (v, i) => {
+          pastries.map((v, i) => {
             return <Pastry key={'${i}${v.name}'} name={v.name} calories={v.calories} description={v.description} />
           })
         }
-      </header>
+      </div>
     </div>
   );
 }

@@ -3,10 +3,10 @@ import './pastry.css'
 
 function Pastry(props) {
     return (
-        <div>
-            <h3> {props.name} </h3>
-            <p> {props.description} </p>
-            <p> Calories: {props.calories} </p>
+        <div className="pastry">
+            <h3 className='name'> {props.name} </h3>
+            <p className="desc"> {props.description} </p>
+            <p className="cal"> {props.calories} calories</p>
         </div>
     )
 }
