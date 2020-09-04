@@ -19,6 +19,10 @@
     margin-block-end: .25em;
 }
 
+.img {
+    
+}
+
 .desc {
     font-size: calc(5px + 2vmin);
     font-style: italic;
