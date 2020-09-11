@@ -18,8 +18,7 @@ export default function NavBar() {
     return (
       <Router>
         <Navbar style={navheader} bg="dark" variant="dark">
-          <Link to="/">
-            <Navbar.Brand>
+          <Link className="navbar-brand" to="/">
               <img
                 src={logo}
                 alt="Logo"
@@ -28,7 +27,6 @@ export default function NavBar() {
                 style={logoStyle}
               />
               Panaderia
-            </Navbar.Brand>
           </Link>
           <Nav className="mr-auto">
             <Link className="nav-link" to="/">
@@ -38,10 +36,6 @@ export default function NavBar() {
               Pastries
             </Link>
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-info">Search</Button>
-          </Form>
         </Navbar>
 
         <Switch>
