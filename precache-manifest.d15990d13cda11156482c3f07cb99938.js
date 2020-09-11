@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc3b98ce51e8dbcd853911626e066dbe",
+    "revision": "8d2fbbf8288182c4aff11fb8edc73f71",
     "url": "/Panaderia/index.html"
   },
   {
-    "revision": "673460bde5d34b3360d0",
+    "revision": "047ac913874f1d2a0adb",
     "url": "/Panaderia/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "ed33527f0638eea0b9b9",
+    "revision": "94d526835102f7061f60",
     "url": "/Panaderia/static/css/main.1e875ebd.chunk.css"
   },
   {
-    "revision": "673460bde5d34b3360d0",
-    "url": "/Panaderia/static/js/2.976f24da.chunk.js"
+    "revision": "047ac913874f1d2a0adb",
+    "url": "/Panaderia/static/js/2.bcab470b.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Panaderia/static/js/2.976f24da.chunk.js.LICENSE.txt"
+    "url": "/Panaderia/static/js/2.bcab470b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed33527f0638eea0b9b9",
-    "url": "/Panaderia/static/js/main.7ec0761b.chunk.js"
+    "revision": "94d526835102f7061f60",
+    "url": "/Panaderia/static/js/main.5ba7635f.chunk.js"
   },
   {
     "revision": "db3302eaf6887fef1100",
