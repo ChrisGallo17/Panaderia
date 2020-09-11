@@ -3,19 +3,19 @@ import Pastry from "./components/pastry"
 
 let pastryList = [
   {
+    name: "Napoleon",
+    calories: 300,
+    img:
+      "https://ofbatteranddough.com/wp-content/uploads/2016/09/600-Napoleon-dessert-8.jpg",
+    description: "A light buttery flakey pastry filled with bavarian creme",
+  },
+  {
     name: "Canoli",
     calories: 200,
     img:
       "https://www.browneyedbaker.com/wp-content/uploads/2010/01/cannoli-65-754.jpg",
     description:
       "Italian pastries consisting of tube-shaped shells of fried pastry dough, filled with a sweet, creamy filling",
-  },
-  {
-    name: "Napoleon",
-    calories: 300,
-    img:
-      "https://ofbatteranddough.com/wp-content/uploads/2016/09/600-Napoleon-dessert-8.jpg",
-    description: "A light buttery flakey pastry filled with bavarian creme",
   },
   {
     name: "Croissant",

@@ -19,23 +19,23 @@ export default function NavBar() {
       <Router>
         <Navbar style={navheader} bg="dark" variant="dark">
           <Link className="navbar-brand" to="/">
-              <img
-                src={logo}
-                alt="Logo"
-                width="30"
-                height="30"
-                style={logoStyle}
-              />
-              Panaderia
+            <img
+              src={logo}
+              alt="Logo"
+              width="30"
+              height="30"
+              style={logoStyle}
+            />
+            Panaderia
           </Link>
-          <Nav className="mr-auto">
-            <Link className="nav-link" to="/">
-              Home
-            </Link>
-            <Link className="nav-link" to="/Pastries">
-              Pastries
-            </Link>
-          </Nav>
+            <Nav className="mr-auto">
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+              <Link className="nav-link" to="/Pastries">
+                Pastries
+              </Link>
+            </Nav>
         </Navbar>
 
         <Switch>
