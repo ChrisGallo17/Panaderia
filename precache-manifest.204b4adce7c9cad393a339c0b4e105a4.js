@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0187223af014a21069e9d2da255e2ad",
+    "revision": "352193ff10ed4d5c4aff4ee9393de617",
     "url": "/Panaderia/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Panaderia/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "ef2263d495f72e4141f4",
+    "revision": "b67092160658bd666873",
     "url": "/Panaderia/static/css/main.1e875ebd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Panaderia/static/js/2.976f24da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef2263d495f72e4141f4",
-    "url": "/Panaderia/static/js/main.4b503c91.chunk.js"
+    "revision": "b67092160658bd666873",
+    "url": "/Panaderia/static/js/main.7947b2ef.chunk.js"
   },
   {
     "revision": "db3302eaf6887fef1100",
