@@ -3,7 +3,7 @@ import Pastries from '../Pastries'
 import Home from '../Home'
 import logo from '../images/logo.png'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
-import { BrowserRouter as HashRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
 const navheader = {
     zIndex: 1
@@ -16,7 +16,7 @@ const logoStyle = {
 
 export default function NavBar() {
     return (
-      <HashRouter basename='/'>
+      <Router>
         <Navbar style={navheader} bg="dark" variant="dark">
           <Navbar.Brand href="/">
                 <img src={logo} alt="Logo" width="30" height="30" style={logoStyle}/>
@@ -40,6 +40,6 @@ export default function NavBar() {
             <Home />
           </Route>
         </Switch>
-      </HashRouter>
+      </Router>
     );
 }
