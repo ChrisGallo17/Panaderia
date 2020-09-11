@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Panaderia/static/css/main.1e875ebd.chunk.css",
-    "main.js": "/Panaderia/static/js/main.7947b2ef.chunk.js",
-    "main.js.map": "/Panaderia/static/js/main.7947b2ef.chunk.js.map",
+    "main.js": "/Panaderia/static/js/main.7ec0761b.chunk.js",
+    "main.js.map": "/Panaderia/static/js/main.7ec0761b.chunk.js.map",
     "runtime-main.js": "/Panaderia/static/js/runtime-main.9b6c6d34.js",
     "runtime-main.js.map": "/Panaderia/static/js/runtime-main.9b6c6d34.js.map",
     "static/css/2.11829350.chunk.css": "/Panaderia/static/css/2.11829350.chunk.css",
     "static/js/2.976f24da.chunk.js": "/Panaderia/static/js/2.976f24da.chunk.js",
     "static/js/2.976f24da.chunk.js.map": "/Panaderia/static/js/2.976f24da.chunk.js.map",
     "index.html": "/Panaderia/index.html",
-    "precache-manifest.204b4adce7c9cad393a339c0b4e105a4.js": "/Panaderia/precache-manifest.204b4adce7c9cad393a339c0b4e105a4.js",
+    "precache-manifest.cbc6d763b35123de7f1992d506e3c688.js": "/Panaderia/precache-manifest.cbc6d763b35123de7f1992d506e3c688.js",
     "service-worker.js": "/Panaderia/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Panaderia/static/css/2.11829350.chunk.css.map",
     "static/css/main.1e875ebd.chunk.css.map": "/Panaderia/static/css/main.1e875ebd.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.976f24da.chunk.js",
     "static/css/main.1e875ebd.chunk.css",
-    "static/js/main.7947b2ef.chunk.js"
+    "static/js/main.7ec0761b.chunk.js"
   ]
 }
