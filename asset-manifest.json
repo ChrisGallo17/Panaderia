@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Panaderia/static/css/main.1e875ebd.chunk.css",
-    "main.js": "/Panaderia/static/js/main.5ba7635f.chunk.js",
-    "main.js.map": "/Panaderia/static/js/main.5ba7635f.chunk.js.map",
+    "main.js": "/Panaderia/static/js/main.ab5cdad0.chunk.js",
+    "main.js.map": "/Panaderia/static/js/main.ab5cdad0.chunk.js.map",
     "runtime-main.js": "/Panaderia/static/js/runtime-main.9b6c6d34.js",
     "runtime-main.js.map": "/Panaderia/static/js/runtime-main.9b6c6d34.js.map",
     "static/css/2.11829350.chunk.css": "/Panaderia/static/css/2.11829350.chunk.css",
-    "static/js/2.bcab470b.chunk.js": "/Panaderia/static/js/2.bcab470b.chunk.js",
-    "static/js/2.bcab470b.chunk.js.map": "/Panaderia/static/js/2.bcab470b.chunk.js.map",
+    "static/js/2.c64c7ac0.chunk.js": "/Panaderia/static/js/2.c64c7ac0.chunk.js",
+    "static/js/2.c64c7ac0.chunk.js.map": "/Panaderia/static/js/2.c64c7ac0.chunk.js.map",
     "index.html": "/Panaderia/index.html",
-    "precache-manifest.d15990d13cda11156482c3f07cb99938.js": "/Panaderia/precache-manifest.d15990d13cda11156482c3f07cb99938.js",
+    "precache-manifest.36f70f196dfe893ee0f76fe799da4863.js": "/Panaderia/precache-manifest.36f70f196dfe893ee0f76fe799da4863.js",
     "service-worker.js": "/Panaderia/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Panaderia/static/css/2.11829350.chunk.css.map",
     "static/css/main.1e875ebd.chunk.css.map": "/Panaderia/static/css/main.1e875ebd.chunk.css.map",
-    "static/js/2.bcab470b.chunk.js.LICENSE.txt": "/Panaderia/static/js/2.bcab470b.chunk.js.LICENSE.txt",
+    "static/js/2.c64c7ac0.chunk.js.LICENSE.txt": "/Panaderia/static/js/2.c64c7ac0.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/Panaderia/static/media/logo.4d78386a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9b6c6d34.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.bcab470b.chunk.js",
+    "static/js/2.c64c7ac0.chunk.js",
     "static/css/main.1e875ebd.chunk.css",
-    "static/js/main.5ba7635f.chunk.js"
+    "static/js/main.ab5cdad0.chunk.js"
   ]
 }
