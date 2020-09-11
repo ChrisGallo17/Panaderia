@@ -18,13 +18,25 @@ export default function NavBar() {
     return (
       <Router>
         <Navbar style={navheader} bg="dark" variant="dark">
-          <Navbar.Brand href="/">
-                <img src={logo} alt="Logo" width="30" height="30" style={logoStyle}/>
-                Panaderia
+          <Link to="/">
+            <Navbar.Brand>
+              <img
+                src={logo}
+                alt="Logo"
+                width="30"
+                height="30"
+                style={logoStyle}
+              />
+              Panaderia
             </Navbar.Brand>
+          </Link>
           <Nav className="mr-auto">
-            <Link className="nav-link" to="/">Home</Link>
-            <Link className="nav-link" to="/Pastries">Pastries</Link>
+            <Link className="nav-link" to="/">
+              Home
+            </Link>
+            <Link className="nav-link" to="/Pastries">
+              Pastries
+            </Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
