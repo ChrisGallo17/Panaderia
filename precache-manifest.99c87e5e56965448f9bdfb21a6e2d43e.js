@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62f54848b266965dced00ec677c9dac5",
+    "revision": "b1734660af856a5d4ff863d80674f0bf",
     "url": "/Panaderia/index.html"
   },
   {

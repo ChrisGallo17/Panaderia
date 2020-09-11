@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Panaderia/precache-manifest.9a16d270f6579bccdb599a4d769ddf45.js"
+  "/Panaderia/precache-manifest.99c87e5e56965448f9bdfb21a6e2d43e.js"
 );
 
 self.addEventListener('message', (event) => {
