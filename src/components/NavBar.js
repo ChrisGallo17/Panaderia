@@ -3,7 +3,7 @@ import Pastries from '../Pastries'
 import Home from '../Home'
 import logo from '../images/logo.png'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as HashRouter, Switch, Route } from 'react-router-dom'
 
 const navheader = {
     zIndex: 1
@@ -16,15 +16,15 @@ const logoStyle = {
 
 export default function NavBar() {
     return (
-      <Router>
+      <HashRouter basename='/'>
         <Navbar style={navheader} bg="dark" variant="dark">
           <Navbar.Brand href="/">
                 <img src={logo} alt="Logo" width="30" height="30" style={logoStyle}/>
                 Panaderia
             </Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="/Panaderia">Home</Nav.Link>
-            <Nav.Link href="/Panaderia/pastries">Pastries</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/pastries">Pastries</Nav.Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
@@ -33,13 +33,13 @@ export default function NavBar() {
         </Navbar>
 
         <Switch>
-          <Route path="/Panaderia/pastries">
+          <Route path="/pastries">
             <Pastries />
           </Route>
-          <Route path="/Panaderia">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     );
 }
