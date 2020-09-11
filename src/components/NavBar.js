@@ -23,8 +23,8 @@ export default function NavBar() {
                 Panaderia
             </Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/pastries">Pastries</Nav.Link>
+            <Nav.Link href="/Panaderia">Home</Nav.Link>
+            <Nav.Link href="/Panaderia/pastries">Pastries</Nav.Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
@@ -33,10 +33,10 @@ export default function NavBar() {
         </Navbar>
 
         <Switch>
-          <Route path="/pastries">
+          <Route path="/Panaderia/pastries">
             <Pastries />
           </Route>
-          <Route path="/">
+          <Route path="/Panaderia">
             <Home />
           </Route>
         </Switch>
